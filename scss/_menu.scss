@@ -13,17 +13,20 @@
       right: 0;
       top: -2.5rem;
       width: 28px;
-      height: 2px;
+      height: 3px;
       background: set-text-color($primary-color);
-      @include transition-ease;
+      transition: 0.4s;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+     
   
       &::before {
         content: '';
         position: absolute;
         top: -8px;
         width: 28px;
-        height: 2px;
+        height: 3px;
         background: set-text-color($primary-color);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
         
       }
   
@@ -32,22 +35,32 @@
         position: absolute;
         top: 8px;
         width: 28px;
-        height: 2px;
+        height: 3px;
         background: set-text-color($primary-color);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
         
       }
   
       &.open {
         transform: rotate(180deg);
         background: transparent;
+        box-shadow: none;
   
         &::before {
           transform: rotate(47deg) translate(6px, 9px);
+          box-shadow: none;
+          background: #657786;
+          border-radius: 2px;
+          
         }
   
         &::after {
           width: 28px;
           transform: rotate(-47deg) translate(3px, -5px);
+          box-shadow: none;
+          background: #657786;
+          border-radius: 2px;
+          
         }
       }
     }

@@ -1,6 +1,7 @@
 .contact{
     height: 100%;
-    padding-top: 40vh;
+    padding-top: 35vh;
+    margin-top: 3rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -9,16 +10,19 @@
     background: 
          linear-gradient(
              to right,
-             rgba($primary-color, 0.4),
-             rgba($primary-color, 0.3)
+             rgba($primary-color, 0.2),
+             rgba($primary-color, 0.1)
          ),
     
-    url('../img/model-1.jpg') center top;
+    url('../img/model-4.jpg') center top;
     background-size: cover;
+    border-top: 2px solid $secondary-color;
  
     h2{
         font-size: 3rem;
         margin-bottom: 2rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-family:'pacifico' ;
 
     }
 
@@ -29,15 +33,19 @@
         font-size: 1.5rem;
         line-height: 2rem;
         letter-spacing: 1px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        margin: 0 1rem;
 
         i{
             padding-right: 0.3rem;
+            
         }
     }
 
     .social-icons{
         position: initial;
         margin-top: 2rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 
        
     }   

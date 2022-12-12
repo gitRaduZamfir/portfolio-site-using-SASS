@@ -1,4 +1,4 @@
-$primary-color: #1c1828;
+$primary-color: #1DA1F2;
 $secondary-color: #FFFFFF;
 $strokecolor:#ffffff;
 
@@ -14,14 +14,14 @@ p, h1, h2, h3, h6{
 }
 
 @mixin transition-ease{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 @function set-text-color($color) {
     @if (lightness($color) > 40%) {
-        @return #888888;
-    } @else {
         @return #ffffff;
+    } @else {
+        @return #657786;
     }
 }
 

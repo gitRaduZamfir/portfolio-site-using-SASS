@@ -16,7 +16,7 @@
       height: 3px;
       background: set-text-color($primary-color);
       transition: 0.4s;
-      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      
      
   
       &::before {
@@ -26,7 +26,7 @@
         width: 28px;
         height: 3px;
         background: set-text-color($primary-color);
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        
         
       }
   
@@ -37,7 +37,7 @@
         width: 28px;
         height: 3px;
         background: set-text-color($primary-color);
-        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        
         
       }
   
@@ -72,7 +72,7 @@
     left: 0;
     width: 100vw;
     opacity: 0.98;
-    visibility:hidden;
+    visibility: hidden;
     font-family: "poppins";
     text-transform: lowercase;
     
@@ -108,9 +108,8 @@
           background-color: $secondary-color;
           width: 60vw;
           text-align: center;
-          border-radius: 10px;
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
           text-shadow: none;
+          
         }
       }
   
@@ -118,19 +117,18 @@
         display: inline-block;
         font-size: 2rem;
         margin: 0 2rem;
-        border: 1px solid transparent;
+        border-bottom: 2px solid transparent;
         padding: 1rem 0;
         width: 60vw;
         font-weight: 300;
         text-align: center;
-        border-radius: 10px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        
        
   
         &:hover {
           color: $secondary-color;
-          border-radius: 10px;
-          border: 1px solid $secondary-color;
+          border-bottom: 2px solid $secondary-color;
+          
         }
       }
     }

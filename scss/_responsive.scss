@@ -69,7 +69,7 @@
   }
 
   .contact {
-    padding-top: 15vh;
+    padding-top: 35vh;
   }
 
   .main .social-icons {
@@ -79,6 +79,9 @@
   @media screen and (max-height: 430px) {
     .home {
       padding-top: 25vh;
+    }
+    .contact {
+      padding-top: 15vh;
     }
   }
 }

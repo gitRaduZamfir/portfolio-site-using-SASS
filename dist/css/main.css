@@ -17,7 +17,6 @@ p, h1, h2, h3, h6 {
   text-align: center;
   background: linear-gradient(to right, rgba(29, 161, 242, 0.2), rgba(29, 161, 242, 0.1)), url("../img/model-1.jpg") center top;
   background-size: cover;
-  margin-top: 3.1rem;
 }
 .home_name {
   font-size: 5rem;
@@ -36,16 +35,14 @@ p, h1, h2, h3, h6 {
   height: 20px;
   width: 28px;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
 }
 .menu-btn__burger {
   position: absolute;
   right: 0;
-  top: -2.5rem;
+  top: 0;
   width: 28px;
   height: 3px;
   background: #ffffff;
-  transition: 0.4s;
 }
 .menu-btn__burger::before {
   content: "";
@@ -106,7 +103,6 @@ p, h1, h2, h3, h6 {
   list-style-type: none;
   padding-right: 1rem;
   transform: translateY(-100%);
-  transition: all 0.4s ease-in-out;
 }
 .nav .menu-nav.open {
   transform: translateY(0);
@@ -145,15 +141,13 @@ p, h1, h2, h3, h6 {
   text-align: center;
   background: linear-gradient(to right, rgba(29, 161, 242, 0.2), rgba(29, 161, 242, 0.1)), url("../img/model-2.png") center top;
   background-size: cover;
-  margin-top: 3.1rem;
 }
 .about__bio-image h2 {
-  font-family: "work sans";
+  font-family: "Pacifico";
 }
 .about__bio-image p {
   padding: 0 2rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .about__bio {
   text-align: center;
@@ -173,7 +167,6 @@ p, h1, h2, h3, h6 {
   background: #4db5f5;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
@@ -193,10 +186,6 @@ p, h1, h2, h3, h6 {
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
-h2 {
-  font-family: "work sans";
-}
-
 .projects {
   padding-bottom: 2rem;
 }
@@ -209,7 +198,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 3.1rem;
 }
 .projects__bio-image .text-secondary {
   font-size: 2rem;
@@ -286,7 +274,6 @@ h2 {
 .contact {
   height: 100%;
   padding-top: 35vh;
-  margin-top: 3rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -374,9 +361,6 @@ h2 {
   }
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .home {
-    margin-top: 3.2rem;
   }
 }
 @media screen and (min-width: 1024px) {

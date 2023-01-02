@@ -1,6 +1,7 @@
-$primary-color: #1da1f2;
+$primary-color: #3c0c3b;
 $secondary-color: #ffffff;
 $strokecolor: #ffffff;
+$hovercolor: rgb(113, 115, 178);
 
 * {
   box-sizing: border-box;
@@ -23,9 +24,9 @@ h6 {
 
 @function set-text-color($color) {
   @if (lightness($color) > 40%) {
-    @return #ffffff;
-  } @else {
     @return #657786;
+  } @else {
+    @return #ffffff;
   }
 }
 

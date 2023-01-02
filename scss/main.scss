@@ -43,7 +43,6 @@ main {
   width: 100%;
 
   .social-icons {
-    position: fixed;
     bottom: 1rem;
     left: 1rem;
 
@@ -67,7 +66,6 @@ footer {
 
 .social-icons {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  position: static;
 
   i:hover {
     color: $primary-color;

@@ -32,13 +32,13 @@ h6 {
 }
 
 .social-icons {
-  position: static;
+  position: absolute;
   display: flex;
   font-size: 0.7rem;
 }
 
 footer {
-  position: static;
+  position: absolute;
 }
 
 .menu-btn {
@@ -149,6 +149,9 @@ footer {
   margin: 0.5rem 0;
   font-family: "work sans";
   text-shadow: none;
+}
+.about .jobs__job h2 {
+  position: absolute;
 }
 .about .jobs__job h6 {
   margin: 0.4rem 0;

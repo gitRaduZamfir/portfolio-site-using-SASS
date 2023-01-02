@@ -17,9 +17,9 @@
         display: inline;
         padding-right: 1.5rem;
         &.active > a {
-          color: $secondary-color;
+          color: rgb(176, 184, 229);
           background-color: transparent;
-          border-bottom: 2px solid $secondary-color;
+
           width: auto;
           text-align: right;
         }

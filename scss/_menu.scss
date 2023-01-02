@@ -6,54 +6,12 @@
   height: 20px;
   width: 28px;
   cursor: pointer;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+}
 
-  &__burger {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 28px;
-    height: 3px;
-    background: set-text-color($primary-color);
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: -8px;
-      width: 28px;
-      height: 3px;
-      background: set-text-color($primary-color);
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 8px;
-      width: 28px;
-      height: 3px;
-      background: set-text-color($primary-color);
-    }
-
-    &.open {
-      transform: rotate(180deg);
-      background: transparent;
-      box-shadow: none;
-
-      &::before {
-        transform: rotate(47deg) translate(6px, 9px);
-        box-shadow: none;
-        background: #657786;
-        border-radius: 2px;
-      }
-
-      &::after {
-        width: 28px;
-        transform: rotate(-47deg) translate(3px, -5px);
-        box-shadow: none;
-        background: #657786;
-        border-radius: 2px;
-      }
-    }
-  }
+.menu-btn:hover {
+  color: $hovercolor;
 }
 
 .nav {
@@ -88,9 +46,8 @@
 
     &__item {
       &.active > a {
-        color: $primary-color;
-        background-color: $secondary-color;
-        width: 60vw;
+        color: $hovercolor;
+        width: 40vw;
         text-align: center;
         text-shadow: none;
       }
@@ -107,8 +64,7 @@
       text-align: center;
 
       &:hover {
-        color: $secondary-color;
-        border-bottom: 2px solid $secondary-color;
+        color: $hovercolor;
       }
     }
   }

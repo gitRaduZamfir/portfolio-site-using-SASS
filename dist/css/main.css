@@ -357,6 +357,28 @@ footer {
   color: #ffffff;
 }
 
+@media screen and (max-height: 430px) {
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+    font-size: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+    padding: 0.5rem;
+    color: #ffffff;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  .contact {
+    padding-top: 10vh;
+  }
+}
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
@@ -415,7 +437,7 @@ footer {
     padding-top: 40vh;
   }
   .contact {
-    padding-top: 35vh;
+    padding-top: 15vh;
   }
   .main .social-icons {
     left: 15rem;

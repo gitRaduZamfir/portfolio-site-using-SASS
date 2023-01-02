@@ -69,3 +69,27 @@ footer {
   padding: 0.5rem;
   color: set-text-color($primary-color);
 }
+
+@media screen and (max-height: 430px) {
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+    font-size: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+    padding: 0.5rem;
+    color: set-text-color($primary-color);
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .contact {
+    padding-top: 10vh;
+  }
+}

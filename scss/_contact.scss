@@ -1,6 +1,6 @@
 .contact {
   height: 100%;
-  padding-top: 35vh;
+  padding: 35vh 1rem 0 1rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -15,40 +15,29 @@
   background-size: cover;
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-family: "pacifico";
   }
 
   &_list {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 1.3rem;
     line-height: 2rem;
     letter-spacing: 1px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    margin: 0 1.5rem;
+    margin: 0 5rem;
 
     i {
-      padding-right: 0.5rem;
+      padding: 0 0.5rem;
     }
   }
 }
 
-.social-icons {
-  position: absolute;
-  display: flex;
-  font-size: 0.7rem;
-}
-
-footer {
-  position: absolute;
-  font-size: 1rem;
-  text-align: right;
-  bottom: 1rem;
-  right: 1rem;
-  padding: 0.5rem;
-  color: set-text-color($primary-color);
+.text-secondary {
+  padding-left: 0.5rem;
 }

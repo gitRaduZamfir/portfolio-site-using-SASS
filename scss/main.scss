@@ -67,6 +67,7 @@ footer {
 
 .social-icons {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  position: static;
 
   i:hover {
     color: $primary-color;

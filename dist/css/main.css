@@ -32,13 +32,13 @@ h6 {
 }
 
 .social-icons {
+  position: static;
   display: flex;
-  flex-direction: column;
   font-size: 0.7rem;
 }
 
 footer {
-  transform: rotate(90deg) translate(-3rem, -5rem);
+  position: static;
 }
 
 .menu-btn {
@@ -399,15 +399,17 @@ main .social-icons a:hover {
 footer {
   font-size: 1rem;
   position: fixed;
-  bottom: 0.4rem;
+  bottom: 1rem;
   right: 1rem;
   text-align: right;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #ffffff;
 }
 
 .social-icons {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-left: 0;
+  padding-left: 0;
 }
 .social-icons i:hover {
   color: #3c0c3b;

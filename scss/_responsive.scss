@@ -1,102 +1,83 @@
 @include media-md {
-    .menu-btn {
-      visibility: hidden;
-    }
-  
-    .nav {
-      visibility: visible;
-     
-      
-      .menu-nav {
-        display: block;
-        transform: translateY(0);
-        height: 100%;
-        background: transparent;
-        text-align: right;
-        
-  
-        &__item {
-          display: inline;
-          padding-right: 1.5rem;
-          &.active > a {
-            color: $secondary-color;
-            background-color: transparent;
-            border-bottom: 2px solid $secondary-color;
-            width: auto;
-            text-align: right;
-    
-            
-            
-          }
-        }
-  
-        &__link {
-          font-size: 1.2rem;
-          display: inline-block;
-          margin: 0.3rem 0.5rem;
-          border: 1px solid transparent;
-          padding: 0.5rem 0.5rem;
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: visible;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
+
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+        &.active > a {
+          color: $secondary-color;
+          background-color: transparent;
+          border-bottom: 2px solid $secondary-color;
           width: auto;
-          font-weight: 100;
-          text-align: center;
-          font-weight: 300;
-          
-          
-
+          text-align: right;
         }
       }
-    }
-  
-    .about__bio {
-      font-size: 1.5rem;
-    }
 
-    .about__bio-img{
-      border-top: 0px solid $secondary-color;
-    }
-
-  
-    .projects {
-      &__bio-image {
-        height: 40vh;
-        
-      }
-      &__items {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .text-secondary {
-        font-size: 3rem;
+      &__link {
+        font-size: 1.2rem;
+        display: inline-block;
+        margin: 0.3rem 0.5rem;
+        border: 1px solid transparent;
+        padding: 0.5rem 0.5rem;
+        width: auto;
+        font-weight: 100;
+        text-align: center;
+        font-weight: 300;
       }
     }
+  }
 
-  
-    .contact__list {
+  .about__bio {
+    font-size: 1.5rem;
+  }
+
+  .about__bio-img {
+    border-top: 0px solid $secondary-color;
+  }
+
+  .projects {
+    &__bio-image {
+      height: 40vh;
+    }
+    &__items {
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
-
-    .home{
-      
-      margin-top: 3.2rem;
+    .text-secondary {
+      font-size: 3rem;
     }
   }
-  
-  @include media-lg {
-    .projects {
-      &__items {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-    .contact__list {
+
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include media-lg {
+  .projects {
+    &__items {
       grid-template-columns: repeat(3, 1fr);
     }
-   
   }
-  
-  @include media-xl {
-    .projects__bio-image {
-      height: 50vh;
-      
-    }
-    
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
+
+@include media-xl {
+  .projects__bio-image {
+    height: 50vh;
+  }
+}

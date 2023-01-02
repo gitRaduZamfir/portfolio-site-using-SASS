@@ -100,7 +100,7 @@ footer {
 }
 .nav .menu-nav__link {
   display: inline-block;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 0 2rem;
   border-bottom: 2px solid transparent;
   padding: 1rem 0;
@@ -290,7 +290,7 @@ footer {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);

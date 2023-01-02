@@ -23,9 +23,9 @@
 }
 .social-icons {
   display: flex;
-  position: sticky;
+  flex-direction: column;
 }
 
 footer {
-  position: sticky;
+  transform: rotate(90deg) translate(-3rem, -5rem);
 }

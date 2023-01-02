@@ -31,6 +31,17 @@ h6 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.social-icons {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -83,7 +94,7 @@ h6 {
 }
 .nav .menu-nav__link {
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin: 0 2rem;
   border-bottom: 2px solid transparent;
   padding: 1rem 0;

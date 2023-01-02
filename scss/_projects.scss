@@ -32,18 +32,15 @@
 
   &__item {
     position: relative;
-    border: 2px solid $secondary-color;
+    border: 1px solid $secondary-color;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    padding: 0.5rem;
     overflow: hidden;
     cursor: pointer;
 
     img {
       width: 100%;
       height: 100%;
-      border-radius: 7px;
-      border: 1px solid $secondary-color;
     }
 
     &::after {
@@ -99,5 +96,12 @@
 
   footer {
     transform: rotate(90deg) translate(-3rem, -5rem);
+    font-size: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+    padding: 0.5rem;
+    color: set-text-color($primary-color);
   }
 }

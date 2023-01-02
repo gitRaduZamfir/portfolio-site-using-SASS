@@ -60,9 +60,6 @@ main {
 
 footer {
   font-size: 1rem;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
   text-align: right;
   padding: 0.5rem;
   color: set-text-color($primary-color);
@@ -70,8 +67,6 @@ footer {
 
 .social-icons {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-left: 0;
-  padding-left: 0;
 
   i:hover {
     color: $primary-color;

@@ -36,3 +36,19 @@
     }
   }
 }
+
+.social-icons {
+  position: absolute;
+  display: flex;
+  font-size: 0.7rem;
+}
+
+footer {
+  position: absolute;
+  font-size: 1rem;
+  text-align: right;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  color: set-text-color($primary-color);
+}

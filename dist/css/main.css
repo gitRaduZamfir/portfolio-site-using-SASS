@@ -165,6 +165,7 @@ footer {
 .about .social-icons {
   display: flex;
   flex-direction: column;
+  position: fixed;
 }
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -254,6 +255,7 @@ footer {
 .projects .social-icons {
   display: flex;
   flex-direction: column;
+  position: fixed;
 }
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -295,6 +297,22 @@ footer {
 }
 .contact_list i {
   padding-right: 0.5rem;
+}
+
+.social-icons {
+  position: absolute;
+  display: flex;
+  font-size: 0.7rem;
+}
+
+footer {
+  position: absolute;
+  font-size: 1rem;
+  text-align: right;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {

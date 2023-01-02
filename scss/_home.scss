@@ -26,6 +26,17 @@
   position: absolute;
   display: flex;
   font-size: 0.7rem;
+  bottom: 1rem;
+  left: 14rem;
+
+  a {
+    padding: 0.4rem;
+    @include transition-ease;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
 }
 
 footer {

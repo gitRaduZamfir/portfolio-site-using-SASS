@@ -46,6 +46,17 @@
   position: absolute;
   display: flex;
   font-size: 0.7rem;
+  bottom: 1rem;
+  left: 50vw;
+
+  a {
+    padding: 0.4rem;
+    @include transition-ease;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
 }
 
 footer {
@@ -53,7 +64,7 @@ footer {
   font-size: 1rem;
   text-align: right;
   bottom: 1rem;
-  right: 1rem;
+  right: 50vw;
   padding: 0.5rem;
   color: set-text-color($primary-color);
 }

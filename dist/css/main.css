@@ -36,6 +36,15 @@ h6 {
   position: absolute;
   display: flex;
   font-size: 0.7rem;
+  bottom: 1rem;
+  left: 14rem;
+}
+.social-icons a {
+  padding: 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.social-icons a:hover {
+  color: #ffffff;
 }
 
 footer {
@@ -166,6 +175,15 @@ footer {
   display: flex;
   flex-direction: column;
   position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.about .social-icons a {
+  padding: 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.about .social-icons a:hover {
+  color: #ffffff;
 }
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -256,6 +274,15 @@ footer {
   display: flex;
   flex-direction: column;
   position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.projects .social-icons a {
+  padding: 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.projects .social-icons a:hover {
+  color: #ffffff;
 }
 .projects footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
@@ -308,6 +335,15 @@ footer {
   position: absolute;
   display: flex;
   font-size: 0.7rem;
+  bottom: 1rem;
+  left: 50vw;
+}
+.social-icons a {
+  padding: 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.social-icons a:hover {
+  color: #ffffff;
 }
 
 footer {
@@ -315,7 +351,7 @@ footer {
   font-size: 1rem;
   text-align: right;
   bottom: 1rem;
-  right: 1rem;
+  right: 50vw;
   padding: 0.5rem;
   color: #ffffff;
 }
@@ -339,7 +375,7 @@ footer {
     padding-right: 1.5rem;
   }
   .nav .menu-nav__item.active > a {
-    color: rgb(176, 184, 229);
+    color: rgb(113, 115, 178);
     background-color: transparent;
     width: auto;
     text-align: right;
@@ -373,6 +409,15 @@ footer {
   }
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .home {
+    padding-top: 40vh;
+  }
+  .contact {
+    padding-top: 35vh;
+  }
+  .main .social-icons {
+    left: 15rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -423,17 +468,6 @@ header {
 main {
   height: 100%;
   width: 100%;
-}
-main .social-icons {
-  bottom: 1rem;
-  left: 1rem;
-}
-main .social-icons a {
-  padding: 0.4rem;
-  transition: all 0.4s ease-in-out;
-}
-main .social-icons a:hover {
-  color: #ffffff;
 }
 
 footer {

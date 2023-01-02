@@ -294,6 +294,7 @@ footer {
   line-height: 2rem;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
 .contact_list i {

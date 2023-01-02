@@ -294,6 +294,7 @@ footer {
   line-height: 2rem;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding-bottom: 100rem;
 }
 .contact_list i {
   padding: 0 0.5rem;
@@ -301,10 +302,6 @@ footer {
 
 .text-secondary {
   padding-left: 0.5rem;
-}
-
-.social-icons {
-  margin-top: 5rem;
 }
 
 @media screen and (min-width: 768px) {
